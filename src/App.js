@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from './components/header/Header'
+import '@fortawesome/fontawesome-free/css/fontawesome.min.css'
+import '@fortawesome/fontawesome-free/js/all'
+
 
 export default class App extends Component {
   render() {
     return (     
       <div>
-        <p>Hello wondeful world!</p>
-        <i class="fa fa-heart"></i>
-        <i class="fab fa-cc-amex"></i>
-        <i class="fa fa-shopping-bag"></i>
+        <Header />
       </div>       
       
     )
