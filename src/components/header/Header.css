@@ -1,7 +1,139 @@
-.header {
+header {
     background-color: var(--primary-color);
     height: 92px;
     display: flex;
     justify-content: space-around;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    width: 1450px;    
+    padding: 0 20px;
+}
+.logo p {
+    color: var(--secundary-color);
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo span {
+    color: var(--tertiary-color);
+}
+.container-search-field {
+    display: flex;
+    margin-left: 100px;
+    width: 100%;
+}
+.select-label {
+    height: 40px;
+    background-color: var(--tertiary-color);
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    border-right: 1px solid #d6d6d6;
+    font-size: 12px;
+    padding-top: 1px;
+    flex-grow: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    /* width: 70px; */
+    padding-right: 8px;
+    padding-left: 18px;
+}
+.select-label svg {
+    margin-left: 10px;
+}
+.container-search-field select {
+    height: 40px; 
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    border-right: 1px solid var(--quaternary-color);
+    font-size: 12px;
+    flex-grow: 1;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -40px;
+    opacity: 0;
+    color:var(--quaternary-color);
+    font-size: 13px;
+    padding: 0 10px;
+}
+.select-input-wrap, .select-input-pist {
+    display: flex;
+    flex-grow: 20;
+}
+.container-search-field input {
+    height: 40px;
+    border: none;
+    font-size: 12px;
+    padding-left: 14px;
+    padding-top: 1px;
+    width: 100%;
+}
+.container-search-field button {
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    height: 40px;
+    background-color: var(--secundary-color);
+    color: var(--tertiary-color);
+    cursor: pointer;
+    font-weight: bold;
+    width: 90px;
+}
+.icon-buttons-header {
+    display: flex;    
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+.icon-buttons-header a {    
+    margin-left: 35px;
+}
+.icon-buttons-header svg {
+    font-size: 27px;
+    color: var(--secundary-color);
+}
+.register-login {
+    display: flex;
+    align-items: center;
+}
+.register-login p {
+    color: var(--secundary-color);
+    margin-left: 10px;    
+    font-size: 13px;
+    font-weight: bold;
+}
+.btn-compare-container span {
+    background-color: var(--secundary-color);
+    color: var(--tertiary-color);
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 2px 5px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.btn-favorite-container span {
+    background-color: var(--secundary-color);
+    color: var(--tertiary-color);
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 2px 5px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -13px;
+}
+.btn-cart-container span {
+    background-color: var(--secundary-color);
+    color: var(--tertiary-color);
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 2px 5px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -5px;
 }
