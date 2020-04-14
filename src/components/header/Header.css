@@ -8,16 +8,28 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1540px;    
     padding: 0 20px;
+    width: 1540px;
+    /* flex-grow: 0.7; */
 }
-.logo p {
+.logo .logo-text-banana-commerce {
     color: var(--secundary-color);
     font-size: 25px;
     font-weight: bold;
 }
-.logo span {
+.logo .logo-text-banana-commerce span {
     color: var(--tertiary-color);
+}
+.icon-banana-commerce {
+    display: none;
+    color: var(--secundary-color);
+    font-size: 30px;
+    font-weight:bold;
+    border: 3px solid var(--secundary-color);
+    border-radius: 3px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
 }
 .container-search-field {
     display: flex;
@@ -38,7 +50,6 @@ header {
     display: flex;
     justify-items: center;
     align-items: center;
-    /* width: 70px; */
     padding-right: 8px;
     padding-left: 18px;
 }
@@ -214,4 +225,39 @@ header {
 }
 .wrap-btns-subtotal-cart button:hover {
     background-color:#e2a704
+}
+
+@media only screen and (max-width: 1199px) {/*{lg} - pattern bootstrap */
+    .icon-buttons-header > ul li {
+        margin-left: 25px;
+    }
+    .container-search-field {
+        margin-left: 60px;
+    }
+}
+@media only screen and (max-width: 991px) {/*{medium}*/
+    .container-search-field {
+        display: none;        
+    }
+    .ul-popover-cart {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .register-login p {
+        display: none;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .logo .logo-text-banana-commerce {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 469px) {
+    .icon-banana-commerce {
+        display: block;
+    }
+    .logo-text-banana-commerce {
+        display: none;
+    }
 }

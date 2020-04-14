@@ -7,8 +7,7 @@ import { mouseOverBtnCart } from './mouseOverBtnCart'
 import CartPopoverItens from './headerComponents/cartPopoverItens/CartPopoverItens'
 
 
-class Header extends Component {
-    
+class Header extends Component {    
 
     componentDidMount() {
         const selectElement = document.getElementById('selectSearchField')
@@ -30,7 +29,8 @@ class Header extends Component {
                 <div className="container-header">
                     <div className="logo">
                         <a href="">
-                            <p>banana<span>commerce</span></p>
+                            <p className="logo-text-banana-commerce" >banana<span>commerce</span></p>
+                            <p className="icon-banana-commerce">b</p>
                         </a>
                     </div>
                     <div className="container-search-field"> 
