@@ -1,0 +1,81 @@
+nav {
+    height: 53px;
+    background-color: var(--primary-color);
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-around;
+}
+.container-navbar {
+    display: flex;
+    align-items: center;
+    width: 1540px;
+    padding: 0 20px;
+}
+.container-btn-menu-departments::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0px;
+    background-color: #000;
+    transition: all 0.3s ease 0s;
+    margin-top: -25px;
+}
+.container-btn-menu-departments {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-top: -2px;
+    width: 220px;
+    justify-content: space-around;
+    transition: all 0.5s ease 0s;
+}
+.wrap-btn-menu-departaments {
+    display: flex;
+    align-items: center;
+}
+.wrap-btn-menu-departaments svg {
+    color: var(--secundary-color);
+    cursor: pointer;
+    font-size: 24px;
+}
+.wrap-btn-menu-departaments span {    
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--secundary-color);
+}
+.container-menu-departments-options {
+    width: 220px;
+    position: absolute;
+    top: 128px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.container-menu-departments-options ul {
+    list-style: none;
+    margin-top: 18px;
+    border: 1px solid #d6d6d6;
+}
+.container-menu-departments-options ul li {
+    padding: 12px;
+    width: 219px;
+    transition: all 0.35s ease 0s;
+}
+.container-menu-departments-options ul li:hover {
+    background-color: var(--primary-color);
+}
+.container-menu-departments-options ul a li {
+    font-size: 12px;
+    color: #505050;
+    font-weight: 200;
+}
+.container-menu-departments-options ul a li svg {
+    margin-right: 10px;
+    font-size: 15px;
+}
+.container-menu-departaments-options-active {
+    opacity: 1;
+    visibility: visible;
+}

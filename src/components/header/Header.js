@@ -28,7 +28,7 @@ class Header extends Component {
             <header>
                 <div className="container-header">
                     <div className="logo">
-                        <a href="">
+                        <a href="/">
                             <p className="logo-text-banana-commerce" >banana<span>commerce</span></p>
                             <p className="icon-banana-commerce">b</p>
                         </a>
@@ -122,7 +122,7 @@ class Header extends Component {
                     <div className="icon-buttons-header">
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="/">
                                     <div className="btn-compare-container">
                                         <FontAwesomeIcon icon={['far', 'chart-bar']}/>
                                         <span>0</span>
@@ -130,7 +130,7 @@ class Header extends Component {
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="/">
                                     <div className="btn-favorite-container">
                                         <FontAwesomeIcon icon={['far','heart']}/>
                                         <span>0</span>
@@ -138,7 +138,7 @@ class Header extends Component {
                                 </a>
                             </li>
                             <li id="link-btn-cart">
-                                <a href="">
+                                <a href="/">
                                     <div className="btn-cart-container">
                                         <FontAwesomeIcon icon={['fas','shopping-bag']}/>
                                         <span>0</span>                                
@@ -155,7 +155,7 @@ class Header extends Component {
                                 </ul>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="/">
                                     <div className="register-login">
                                         <FontAwesomeIcon icon={['far', 'user']}/>
                                         <p>Log in <br/> Register</p>
