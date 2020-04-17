@@ -1,0 +1,73 @@
+.container-search-field {
+    display: flex;
+    margin-left: 100px;
+    width: 100%;
+}
+.select-label {
+    height: 40px;
+    background-color: var(--tertiary-color);
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    border-right: 1px solid #d6d6d6;
+    font-size: 12px;
+    padding-top: 1px;
+    flex-grow: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-right: 8px;
+    padding-left: 18px;
+}
+.select-label svg {
+    margin-left: 10px;
+}
+.container-search-field select {
+    height: 40px; 
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    border-right: 1px solid var(--quartenary-color);
+    font-size: 12px;
+    flex-grow: 1;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -40px;
+    opacity: 0;
+    color:var(--quartenary-color);
+    font-size: 13px;
+    padding: 0 10px;
+}
+.select-input-wrap, .select-input-pist {
+    display: flex;
+    flex-grow: 20;
+}
+.container-search-field input {
+    height: 40px;
+    border: none;
+    font-size: 12px;
+    padding-left: 14px;
+    padding-top: 1px;
+    width: 100%;
+}
+.container-search-field button {
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    height: 40px;
+    background-color: var(--secundary-color);
+    color: var(--tertiary-color);
+    cursor: pointer;
+    font-weight: bold;
+    width: 90px;
+}
+
+@media only screen and (max-width: 1199px) {/*{lg} - pattern bootstrap */    
+    .container-search-field {
+        margin-left: 60px;
+    }
+}
+@media only screen and (max-width: 991px) {/*{medium}*/
+    .container-search-field {
+        display: none;        
+    }
+}
