@@ -26,11 +26,13 @@ button .icon-close:hover {
 }
 .product-cart-info {
     padding: 5px;
+    margin-left: 15px;
 } 
 .product-cart-name {
     margin-bottom: 5px;
     color: var(--title-products-primary-color);
     transition: all 0.3s;
+    font-size: 14px;
 }
 .product-cart-name:hover {
     color: var(--primary-color);
@@ -39,6 +41,7 @@ button .icon-close:hover {
     margin-bottom: 10px;
     font-weight: bold;
     color: black;
+    font-size: 14px;
 }
 .seller-cart-name span {
     font-weight: normal;

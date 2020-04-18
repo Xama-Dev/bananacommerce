@@ -13,9 +13,9 @@ class MenuDepartaments extends Component {
     render() {
         return(
             <div className="menu-departaments">
-                <div className="container-btn-menu-departments">
-                    <div className="wrap-btn-menu-departaments">
-                        <FontAwesomeIcon id="btn-menu-departments" icon={['fas', 'bars']} />
+                <div className="container-wrap-menu-departments">
+                    <div id="wrap-menu-departments" className="wrap-btn-menu-departaments">
+                        <FontAwesomeIcon icon={['fas', 'bars']} />
                         <span className="label-menu-departaments">Shop By Department</span>
                     </div>
                 </div>

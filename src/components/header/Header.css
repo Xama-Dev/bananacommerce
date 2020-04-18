@@ -40,7 +40,7 @@ header {
     align-items: center;
 }
 .icon-buttons-header > ul li {
-    margin-left: 35px;
+    margin-left: 50px;
 }
 .icon-buttons-header ul li div > svg {
     font-size: 27px;
@@ -96,19 +96,15 @@ header {
     height: 28px;  
     margin-left: -29px; 
 }
-.cart-popover {
+.wrap-cart-popover {
     position: absolute;
-    width: 305px;
-    background-color: white;
-    border: 1px solid #d6d6d6;
-    font-size: 12px;
-    color: var(--quartenary-color);
-    right: -90px;
-    margin-top: 26px;
-    padding: 10px;
+    right: 108px;
     transition: all 0.3s;
+    padding-top: 23px;
+    opacity: 0;
+    visibility: hidden;
 }
-.cart-popover > span {
+.wrap-cart-popover > span {
     padding: 7px;
     background-color: white;
     border-left: solid 1px #d6d6d6;
@@ -116,16 +112,24 @@ header {
     transform: rotate(45deg);
     display: inline-block;
     position: absolute;
-    top: -7px;
-    left: 162px;
+    top: 16px;
+    left: 168px;
+}
+.wrap-cart-popover-active {
+    opacity: 1;
+    visibility: visible;
+}
+.cart-popover {
+    width: 365px;
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    font-size: 12px;
+    color: var(--quartenary-color);
+    padding: 10px;
 }
 .no-products-label {
     display: none;
     padding: 5px;
-}
-.cart-popover-disable {
-    opacity: 0;
-    visibility: hidden;
 }
 .wrap-subtotal-cart-popover {
     padding: 10px;
@@ -138,7 +142,7 @@ header {
 }
 .wrap-label-subtotal-cart-popover > span {
     display: contents;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     color: black;
 }
@@ -150,12 +154,13 @@ header {
     justify-content: space-between;   
 }
 .wrap-btns-subtotal-cart button {
-    height: 35px;
-    width: 120px;
+    height: 48px;
+    width: 148px;
     border-radius: 3px;
     border: none;
     background-color: var(--primary-color);
     color: var(--secundary-color);
+    font-size: 15px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s;

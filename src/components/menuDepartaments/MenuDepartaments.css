@@ -1,4 +1,4 @@
-.container-btn-menu-departments::before {
+.container-wrap-menu-departments::before {
     position: absolute;
     content: "";
     height: 2px;
@@ -7,7 +7,7 @@
     transition: all 0.3s ease 0s;
     margin-top: -25px;
 }
-.container-btn-menu-departments {
+.container-wrap-menu-departments {
     display: flex;
     height: 100%;
     align-items: center;
@@ -19,10 +19,10 @@
 .wrap-btn-menu-departaments {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .wrap-btn-menu-departaments svg {
     color: var(--secundary-color);
-    cursor: pointer;
     font-size: 24px;
 }
 .wrap-btn-menu-departaments span {    

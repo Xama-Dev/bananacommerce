@@ -1,0 +1,23 @@
+.wrap-popover {
+    position: absolute;
+    margin-left: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease 0s;
+    padding-top: 16px; 
+}
+.popover {
+    display: flex;
+    padding: 25px;
+    border: 1px solid #d6d6d6;
+    background-color: white;
+}
+.popover span {
+    padding: 7px;
+    background-color: white;
+    border-left: solid 1px #d6d6d6;
+    border-top: solid 1px #d6d6d6;
+    transform: rotate(45deg);
+    display: inline-block;
+    position: absolute;
+}
