@@ -1,0 +1,42 @@
+.wrap-menunavgation-mobile {
+    display: none;
+    margin: 0 auto;
+    height: 100%;
+    flex-grow: 0.6;
+}
+.wrap-menunavgation-mobile > svg {
+    font-size: 22px;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.wrap-menunavgation-mobile input {
+    height: 42px;
+    width: 100%;
+    border: none;
+    padding-left: 20px;
+}
+.wrap-menunavgation-mobile button {
+    height: 42px;
+    width: 60px;
+    border: none;
+    background-color: var(--secundary-color);
+    cursor: pointer;
+}
+.wrap-menunavgation-mobile button svg {
+    color: white;
+    font-size: 20px;
+}
+.search-field-mobile {
+    display: flex;
+    width: 100%;
+}
+
+/* responsividade */
+@media only screen and (max-width: 991px) {
+    .wrap-menunavgation-mobile {
+        display: flex;
+    
+    }
+
+}

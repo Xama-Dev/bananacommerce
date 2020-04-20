@@ -27,7 +27,8 @@ import
   faBook,
   faCar,
   faTools,
-  faTag
+  faTag,
+  faSearch
 } from '@fortawesome/free-solid-svg-icons'
 
 import Header from './components/header/Header'
@@ -54,7 +55,8 @@ library.add(
   faBook,
   faCar,
   faTools,
-  faTag
+  faTag,
+  faSearch
   )
 
 export default class App extends Component {

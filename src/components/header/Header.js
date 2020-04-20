@@ -51,14 +51,14 @@ class Header extends Component {
                                         <FontAwesomeIcon icon={['fas','shopping-bag']}/>
                                         <span>0</span>                                
                                     </div>
-                                </a> 
+                                </a>                                                                
                                 <div id="wrap-cart-popover" className="wrap-cart-popover">
                                     <span></span>
                                     <div className="cart-popover">
                                         <p className="no-products-label">No products in the cart.</p>
                                         <CartPopoverItens />
                                     </div>                                
-                                </div>                               
+                                </div>
                             </li>
                             <li>
                                 <a href="/">

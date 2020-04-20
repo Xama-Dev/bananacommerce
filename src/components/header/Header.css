@@ -59,7 +59,7 @@ header {
 .btn-compare-container > span {
     background-color: var(--secundary-color);
     color: var(--tertiary-color);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     border-radius: 50%;
     padding: 2px 5px;
@@ -70,7 +70,7 @@ header {
 .btn-favorite-container > span {
     background-color: var(--secundary-color);
     color: var(--tertiary-color);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     border-radius: 50%;
     padding: 2px 5px;
@@ -81,7 +81,7 @@ header {
 .btn-cart-container > span {
     background-color: var(--secundary-color);
     color: var(--tertiary-color);
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     border-radius: 50%;
     padding: 2px 5px;
@@ -98,7 +98,7 @@ header {
 }
 .wrap-cart-popover {
     position: absolute;
-    right: 108px;
+    margin-left: -205px;
     transition: all 0.3s;
     padding-top: 23px;
     opacity: 0;
@@ -113,7 +113,7 @@ header {
     display: inline-block;
     position: absolute;
     top: 16px;
-    left: 168px;
+    left: 209px;
 }
 .wrap-cart-popover-active {
     opacity: 1;
@@ -173,10 +173,16 @@ header {
     .icon-buttons-header > ul li {
         margin-left: 25px;
     }
+    .wrap-cart-popover {
+        margin-left: -230px;        
+    }
+    .wrap-cart-popover > span {        
+        left: 236px;
+    }
 }
-@media only screen and (max-width: 991px) {/*{medium}*/    
-    .ul-popover-cart {
-        display: none;
+@media only screen and (max-width: 991px) {/*{medium}*/ 
+    .wrap-cart-popover {
+        display: none;        
     }
 }
 @media only screen and (max-width: 767px) {

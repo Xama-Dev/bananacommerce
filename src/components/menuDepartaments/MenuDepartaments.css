@@ -54,7 +54,7 @@
     background-color: var(--primary-color);
 }
 .container-menu-departments-options ul a li {
-    font-size: 14px;
+    font-size: 13px;
     color: #505050;
     font-weight: 200;
     display: flex;

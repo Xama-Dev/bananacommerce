@@ -12,17 +12,17 @@ nav {
     padding: 0 20px;
 }
 .menu-navigation {
-    margin-left: 65px;
+    flex-grow: 1;
 }
 .menu-navigation > ul {
     list-style: none;
     display: flex;
+    width: 400px;
+    justify-content: space-between;
 }
 .menu-navigation > ul > li {
-    margin-right: 60px;
-    font-size: 16px;
+    font-size: 15px;
     color: var(--secundary-color);
-    display: flex;
     align-items: center;
     cursor: pointer;
     display: flex;
@@ -65,7 +65,8 @@ nav {
     background-color: #000;
     transition: all 0.5s ease 0s;
     margin-top: -26px;
-}#li-blog::before {
+}
+#li-blog::before {
     position: absolute;
     content: "";
     height: 2px;
@@ -134,7 +135,7 @@ nav {
     display: inline-block;
     position: absolute;
     top: 9px;
-    left: 115px;
+    left: 120px;
 }
 /*menu-dropdown-li-pages*/
 #wrap-dropdown-li-pages {
@@ -156,7 +157,7 @@ nav {
     top: 9px;
     left: 170px;
 }
-/*menu-dropdown-li-pages*/
+/*menu-dropdown-li-blog*/
 #wrap-dropdown-li-blog {
     position: absolute;
     margin-left: 100px;
@@ -187,10 +188,14 @@ nav {
     display: flex;
     justify-content: space-between;
     height: 100%;
-    width: 100%;
+    flex-grow:1;
+    margin-left: 63px;
 }
 .menuaside-navbar {
-    display: flex;  
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;  
+    width: 565px;
 }
 .item-menuaside-navbar {
     display: flex;
@@ -205,7 +210,7 @@ nav {
     display: flex;
 }
 .itemcontainer-menuaside-navbar span {
-    font-size: 14px;
+    font-size: 13px;
     color: var(--secundary-color);
 }
 .itemcontainer-menuaside-navbar svg {
@@ -228,7 +233,7 @@ nav {
 /* currence menu options */
 #wrap-currence-options {
     position: absolute;
-    margin-left: 323px;
+    margin-left: -106px;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease 0s;
@@ -266,7 +271,7 @@ nav {
 }
 .container-dropdown-currence  ul li {
     margin-bottom: 14px;
-    font-size: 14px;
+    font-size: 13px;
     cursor: pointer;
 }
 #trigger-currence-options {
@@ -278,7 +283,7 @@ nav {
 /* language menu options */
 #wrap-language-options {
     position: absolute;
-    margin-left: 444px;
+    margin-left: 20px;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease 0s;
@@ -316,7 +321,7 @@ nav {
 }
 .container-dropdown-language  ul li {
     margin-bottom: 14px;
-    font-size: 14px;
+    font-size: 13px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -334,4 +339,72 @@ nav {
 .wrap-options-active {
     opacity: 1 !important;
     visibility: visible !important;
+}
+
+/* responsividade */
+@media only screen and (max-width: 1343px) {
+    .menu-navigation > ul {
+        width: 250px;
+    }
+    #wrap-dropdown-li-shop > span {        
+        left: 69px;
+    }
+    #wrap-dropdown-li-pages {
+        margin-left: 115px;
+    }
+    #wrap-dropdown-li-pages > span {        
+        left: 25px;
+    }
+    #wrap-dropdown-li-blog {
+        position: absolute;
+        margin-left: 185px;
+        transition: all 0.3s ease 0s;
+        padding-top: 16px;
+    }
+    #wrap-dropdown-li-blog > span {  
+        left: 24px;
+    }
+    
+}
+@media only screen and (max-width: 1199px) {
+    .wrap-menunavigation-menuaside {        
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width: 1144px) {
+    .menuaside-navbar {
+        display: none;
+    }
+    .menu-navigation > ul {
+        width: 400px;
+    }
+    #wrap-dropdown-li-shop {        
+        padding-top: 16px;    
+    }
+    #wrap-dropdown-li-shop > span {        
+        left: 120px;
+    }
+    #wrap-dropdown-li-pages {
+        margin-left: 75px;   
+    }
+    #wrap-dropdown-li-pages > span {
+        left: 170px;
+    }
+    #wrap-dropdown-li-blog {
+        margin-left: 100px;    
+    }
+    #wrap-dropdown-li-blog > span {
+        left: 260px;
+    }    
+}
+@media only screen and (max-width: 991px) {
+    .wrap-menunavigation-menuaside {
+        display: none
+    }
+    .menu-departaments {
+        display: none;
+    }
+    nav {
+        border: none;
+    }
 }

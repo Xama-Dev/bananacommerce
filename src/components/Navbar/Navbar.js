@@ -9,6 +9,7 @@ import geFlag from '../../img/de.png'
 import MenuDepartaments from '../menuDepartaments/MenuDepartaments'
 import { onMouseOverMenuNavigation } from './onMouseOverMenuNavigation'
 import { onMouseOverMenuAside, onMouseOvermenuAside } from './onMouseOverMenuAside'
+import NavbarMobile from './navbarComponents/navbarMobile/NavbarMobile'
 
 class Navbar extends Component {   
 
@@ -382,6 +383,7 @@ class Navbar extends Component {
 
                         </div>
                     </div>
+                    <NavbarMobile /> 
                 </div>
             </nav>
         )
