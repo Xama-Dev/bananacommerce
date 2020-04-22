@@ -23,7 +23,9 @@ class CartPopoverItem extends Component {
                         </span>
                     </span>
                 </div>
-                <button><FontAwesomeIcon icon={['fas','times']} className="icon-close"/></button>
+                <button>
+                    <FontAwesomeIcon icon={['fas','times']} className="icon-close"/>
+                </button>
             </div>
         )
     }

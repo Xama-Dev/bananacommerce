@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import '@fortawesome/fontawesome-free/css/all.min.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import 
 {
@@ -28,7 +29,9 @@ import
   faCar,
   faTools,
   faTag,
-  faSearch
+  faSearch,
+  faPlus,
+  faMinus
 } from '@fortawesome/free-solid-svg-icons'
 
 import Header from './components/header/Header'
@@ -56,7 +59,9 @@ library.add(
   faCar,
   faTools,
   faTag,
-  faSearch
+  faSearch,
+  faPlus,
+  faMinus
   )
 
 export default class App extends Component {

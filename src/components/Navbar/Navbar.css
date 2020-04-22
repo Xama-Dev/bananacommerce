@@ -93,7 +93,7 @@ nav {
     border-top: solid 1px #d6d6d6;
     transform: rotate(45deg);
     display: inline-block;
-    position: absolute;    
+    position: absolute;
 }
 .container-dropdown  ul {
     list-style: none;
@@ -101,7 +101,7 @@ nav {
 }
 .container-dropdown  ul li {
     margin-bottom: 14px;
-    font-size: 14px;
+    font-size: 13px;
 }
 .container-dropdown  ul li a {
     color: var(--secundary-color);
@@ -116,6 +116,8 @@ nav {
     font-weight: 700;
     margin-bottom: 20px;
     display: block;
+     
+    font-size: 14px  
 }
 /*menu-dropdown-li-shop*/
 #wrap-dropdown-li-shop {

@@ -29,8 +29,8 @@ class MenuDepartaments extends Component {
                         </a>
                         <a href="/">
                             <li>
-                            <FontAwesomeIcon icon={['fas','tv']}/>
-                            <span> Consumer Electrics</span>
+                                <FontAwesomeIcon icon={['fas','tv']}/>
+                                <span> Consumer Electrics</span>
                             </li>
                         </a>
                         <a href="/">
