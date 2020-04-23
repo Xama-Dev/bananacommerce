@@ -8,7 +8,7 @@ export function onMouseOverMenuNavigation() {
 
     const liCollection = [ liHome, liShop, liPages, liBlog ]
 
-    const styleSheets = document.styleSheets[8]
+    const styleSheets = document.styleSheets[7]
 
     liCollection.forEach( (li) => {
         li.onmouseover = () => {

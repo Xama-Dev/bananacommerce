@@ -103,6 +103,7 @@ header {
     padding-top: 23px;
     opacity: 0;
     visibility: hidden;
+    z-index: 2;
 }
 .wrap-cart-popover > span {
     padding: 7px;

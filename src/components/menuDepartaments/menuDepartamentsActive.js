@@ -1,6 +1,6 @@
 export function menuDepartmentsActive() {
     const wrapMenuDepartments = document.getElementById('wrap-menu-departments')
-    const containerBtnMenuDepartmentsBefore = document.styleSheets[9].cssRules[0]
+    const containerBtnMenuDepartmentsBefore = document.styleSheets[8].cssRules[0]
         
     const containerMenuDepartamentsOptions = document.querySelector('.container-menu-departments-options')
 

@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import Header from './components/header/Header'
+import Navbar from './components/Navbar/Navbar'
+import BannerCarousel from './components/bannerCarousel/BannerCarousel'
+
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import 
@@ -34,8 +38,6 @@ import
   faMinus
 } from '@fortawesome/free-solid-svg-icons'
 
-import Header from './components/header/Header'
-import Navbar from './components/Navbar/Navbar'
 
 library.add(   
   faChartBar, 
@@ -64,12 +66,14 @@ library.add(
   faMinus
   )
 
-export default class App extends Component {
-render() {
-    return (     
+  
+  export default class App extends Component {
+    render() {
+      return (     
       <div>
         <Header />
         <Navbar />
+        <BannerCarousel />
       </div>       
       
     )
