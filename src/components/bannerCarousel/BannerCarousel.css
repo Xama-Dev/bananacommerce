@@ -1,7 +1,6 @@
 .wrap-bannercarousel {
-    width: 64%;
+    width: 73%;
     height: 425px;
-    margin: 0 auto;
     display: flex;
 }
 .bannercarousel-container {
@@ -134,7 +133,7 @@
   }
 
   /*Responsividade*/
-  @media only screen and (max-width: 1230px) {
+  @media only screen and (max-width: 1130px) {
     .wrap-bannercarousel {
         width: 100%;
     }

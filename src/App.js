@@ -3,7 +3,7 @@ import './App.css';
 
 import Header from './components/header/Header'
 import Navbar from './components/Navbar/Navbar'
-import BannerCarousel from './components/bannerCarousel/BannerCarousel'
+import FeaturedSection from './components/featuredSection/FeaturedSection' 
 
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -13,7 +13,9 @@ import
    faHeart, 
    faUser, 
    faStar, 
-   faGem 
+   faGem, 
+   faCreditCard,
+   faComments
 } from '@fortawesome/free-regular-svg-icons'
 import 
 {
@@ -35,7 +37,10 @@ import
   faTag,
   faSearch,
   faPlus,
-  faMinus
+  faMinus,
+  faRocket,
+  faSyncAlt,
+  faGift
 } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -63,7 +68,12 @@ library.add(
   faTag,
   faSearch,
   faPlus,
-  faMinus
+  faMinus,
+  faRocket,
+  faSyncAlt,
+  faCreditCard,
+  faComments,
+  faGift
   )
 
   
@@ -73,7 +83,7 @@ library.add(
       <div>
         <Header />
         <Navbar />
-        <BannerCarousel />
+        <FeaturedSection />
       </div>       
       
     )
