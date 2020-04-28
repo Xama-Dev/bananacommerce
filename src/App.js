@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/header/Header'
 import Navbar from './components/Navbar/Navbar'
 import FeaturedSection from './components/featuredSection/FeaturedSection' 
+import DealsSection from './components/dealsSection/DealsSection'
 
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -80,11 +81,15 @@ library.add(
   export default class App extends Component {
     render() {
       return (     
-      <div>
-        <Header />
-        <Navbar />
-        <FeaturedSection />
-      </div>       
+        <div>
+          <Header />
+          <Navbar />
+          <FeaturedSection />
+          <DealsSection />
+          <div className="white-space">
+            
+          </div>
+        </div>       
       
     )
   }

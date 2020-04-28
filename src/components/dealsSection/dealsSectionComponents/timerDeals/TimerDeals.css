@@ -1,0 +1,15 @@
+.timerDeals-container {
+    background-color: var(--featured-color);
+    color: var(--tertiary-color);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: 700;
+    width: 205px;
+}
+.timerDeals-container span:nth-child(1) {
+    margin-right: 18px;
+}
+.timerDeals-container span {
+    font-size: 17px;
+}
+
