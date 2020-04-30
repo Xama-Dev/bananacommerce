@@ -41,7 +41,8 @@ import
   faMinus,
   faRocket,
   faSyncAlt,
-  faGift
+  faGift,
+  faStar as faStarRegular
 } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -74,7 +75,8 @@ library.add(
   faSyncAlt,
   faCreditCard,
   faComments,
-  faGift
+  faGift,
+  faStarRegular
   )
 
   

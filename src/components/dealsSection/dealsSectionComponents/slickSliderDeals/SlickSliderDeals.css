@@ -1,0 +1,90 @@
+.slick__slider-container {
+    width: 85vw;
+    margin: 0 auto;
+}
+.slick-prev, .slick-next {
+    width: fit-content;
+    height: 50px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-size: 0px;
+}
+.slick-prev::before {
+    content: '\f053';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;    
+    color: #c9c7c7;
+    font-size: 36px;
+    transition: all 0.3s;
+    opacity: 1;
+}
+.slick-prev:hover:before {
+    color: black;
+}
+.slick-next::before {
+    content: '\f054';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #c9c7c7;
+    font-size: 36px;
+    transition: all 0.3s;
+    opacity: 1;
+}
+.slick-next:hover:before {
+    color: black;
+}
+.slick-prev {
+    left: -45px;
+}
+.slick-next {
+    right: -45px;
+}
+.slick-dots li button:before {
+    font-size: 11px;
+    color: #d6d6d6;
+    opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+    color: var(--primary-color);
+}
+.slick-dots {
+    top: 110%
+}
+.slick-disabled:before {
+    color: #f1eded;  
+    opacity: 1 !important;  
+}
+.slick-disabled:hover:before {
+    color: #f1eded; 
+    cursor: default;  
+    opacity: 1; 
+
+}
+.slick-disabled:hover {
+    cursor: unset; 
+    opacity: 1; 
+
+}
+
+/* Responsividade */
+@media only screen and (max-width: 1596px) {
+    .slick__slider-container {
+        width: 95vw;
+    }
+}
+@media only screen and (max-width: 1123px) {
+    .slick__slider-container {
+        width: 93vw;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .slick__slider-container {
+        width: 90vw;
+    }
+}
+@media only screen and (max-width: 711px) {
+    .slick__slider-container {
+        width: 87vw;
+    }
+}

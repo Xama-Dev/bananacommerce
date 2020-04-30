@@ -1,0 +1,107 @@
+[
+    {
+        "_id": 1,
+        "image": "/img/slick-deals-img1.jpg",
+        "currency":"$",
+        "price": 679.80,
+        "discount": 0.16,
+        "name": "Korea Long Sofa Fabric In Blue Navy Color",
+        "seller": "Yong Shop",
+        "costumerAvaliation": 1,
+        "constumerComments": 1,
+        "soldAmount": 27,
+        "quantityInStock": 100
+    },
+    {
+        "_id": 2,
+        "image": "/img/slick-deals-img2.jpg",
+        "currency":"$",
+        "price": 62.35,
+        "discount": 0.07,
+        "name": "MVMTH Classical Leather Watch In Black",
+        "seller": "Yong Shop",
+        "costumerAvaliation": 4,
+        "constumerComments": 4,
+        "soldAmount": 94,
+        "quantityInStock": 120
+    },
+    {
+        "_id": 3,
+        "image": "/img/slick-deals-img3.jpg",
+        "currency":"$",
+        "price": 822.70,
+        "discount": 0.24,
+        "name": "Apple Macbook Retina Display 12”",
+        "seller": "ROBERT’S STORE",
+        "costumerAvaliation": 4,
+        "constumerComments": 6,
+        "soldAmount": 46,
+        "quantityInStock": 60
+    },
+    {
+        "_id": 4,
+        "image": "/img/slick-deals-img4.jpg",
+        "currency":"$",
+        "price": 1422.70,
+        "discount": 0.28,
+        "name": "LG White Front Load Steam Washer",
+        "seller": "ROBERT’S STORE",
+        "costumerAvaliation": 5,
+        "constumerComments": 2,
+        "soldAmount": 14,
+        "quantityInStock": 100
+    },
+    {
+        "_id": 5,
+        "image": "/img/slick-deals-img5.jpg",
+        "currency":"$",
+        "price": 62.60,
+        "discount": 0.27,
+        "name": "Amcrest Security Camera in White Color",
+        "seller": "Yong Shop",
+        "costumerAvaliation": 5,
+        "constumerComments": 1,
+        "soldAmount": 37,
+        "quantityInStock": 100
+    },
+    {
+        "_id": 6,
+        "image": "/img/slick-deals-img6.jpg",
+        "currency":"$",
+        "price": 125.17,
+        "discount": 0.25,
+        "name": "Baxter Care Hair Kit For Bearded Mens",
+        "seller": "Yong Shop",
+        "costumerAvaliation": 4,
+        "constumerComments": 1,
+        "soldAmount": 4,
+        "quantityInStock": 90
+    },
+    {
+        "_id": 7,
+        "image": "/img/slick-deals-img7.jpg",
+        "currency":"$",
+        "price": 50.60,
+        "discount": 0.35,
+        "name": "Set 30 Piece Korea StartSkin Natural Mask",
+        "seller": "ROBERT’S STORE",
+        "costumerAvaliation": 2,
+        "constumerComments": 1,
+        "soldAmount": 1,
+        "quantityInStock": 100
+    },
+    {
+        "_id": 8,
+        "image": "/img/slick-deals-img8.jpg",
+        "currency":"$",
+        "price": 66.78,
+        "discount": 0.37,
+        "name": "Ciate Palemore Lipstick Bold Red Color",
+        "seller": "Yong Shop",
+        "costumerAvaliation": 2,
+        "constumerComments": 1,
+        "soldAmount": 13,
+        "quantityInStock": 100
+    }
+    
+]

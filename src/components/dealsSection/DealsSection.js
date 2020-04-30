@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './DealsSection.css'
 
 import TimerDeals from './dealsSectionComponents/timerDeals/TimerDeals'
+import SlickSliderDeals from './dealsSectionComponents/slickSliderDeals/SlickSliderDeals'
 
 class DealsSection extends Component {
     render() {
@@ -15,8 +16,9 @@ class DealsSection extends Component {
                         </div>
                         <a href="/">View All</a>
                     </div>
-
-                </div>
+                    
+                        <SlickSliderDeals />
+                    </div>
             </section>
         )
     }

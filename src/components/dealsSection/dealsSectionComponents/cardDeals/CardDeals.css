@@ -1,0 +1,75 @@
+.card__deals {
+    padding: 0 20px;
+}
+.image-card__deals-container img {
+    width: 100%;
+    height: auto;
+}
+.price-container-card__deals {
+    margin-bottom: 15px;
+}
+.price__if__discount {
+    color: var(--price-cart-name-primary-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+.price__original-card__deals {
+    color: var(--quartenary-color);
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.discount-card__deals {
+    color: var(--featured-color);
+    font-size: 14px;
+}
+.name-product-card__deals {
+    margin-bottom: 15px;
+}
+.name-product-card__deals a {
+    color: var(--title-products-primary-color);
+    font-size: 14px;
+    transition: all 0.5s;
+}
+.name-product-card__deals a:hover {
+    color: var(--primary-color);
+}
+.seller-card__deals {
+    margin-bottom: 15px;
+}
+.seller-card__deals span:first-child {
+    font-size: 14px;
+}
+.seller-card__deals span:first-child span {
+    text-transform: uppercase;
+}
+.costumer__avaliation-card__deals-container {
+    margin-bottom: 20px;
+}
+.costumer__avaliation-card__deals {
+    display: flex;
+    align-items: center;
+}
+.costumer__avaliation-stars {
+    display: flex;
+    margin-right: 10px;
+}
+.costumer__avaliation-stars svg {
+    font-size: 12px;
+    margin-right: 3px;
+    color: #d6d6d6;
+}
+.quantity__of__coments-card__deals {
+    font-size: 13px;
+}
+.bar__sales__progress-wrapper {   
+    height: 10px; 
+    background-color: #d6d6d6;
+    margin-bottom: 4px;
+}
+.bar__sales__progress-wrapper > div {
+    height: 100%;
+    background-color: var(--primary-color)
+}
+.sold__amount-contianer span {
+    font-size: 14px;
+}
