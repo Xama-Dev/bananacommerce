@@ -7,18 +7,28 @@ import "slick-carousel/slick/slick-theme.css"
 import './SlickSliderDeals.css'
 
 import CardDeals from '../cardDeals/CardDeals'
+import { buttonsCardSystem } from '../cardDeals/buttonsCardSystem'
 
 class SlickSliderDeals extends Component {
-    constructor(props) {
+    
+  constructor(props) {
         super(props)
 
         this.state = {
             products: products
         }
+
+        
+    }
+
+    componentDidMount() {
+
+      buttonsCardSystem()
+      
     }
 
   render() {
-    var settings = {
+    const settings = {
       dots: false,
       infinite: false,
       speed: 500,
@@ -83,10 +93,27 @@ class SlickSliderDeals extends Component {
       <div className="slick__slider-container">
         <Slider {...settings}>
             {
-                this.state.products
-                  .map( 
-                    product => <CardDeals key={product._id} product={product}/> 
-                  )
+              this.state.products
+                .map( 
+                  product =>
+                    <CardDeals 
+                        key={product._id} 
+                        image={product.image}
+                        currency={product.currency}
+                        price={product.price}
+                        discount={product.discount}
+                        seller={product.seller}
+                        costumerAvaliation={product.costumerAvaliation}
+                        costumerComments={
+                          product.costumerComments < 10 ? 
+                            `0${product.costumerComments}` : 
+                            product.costumerComments
+                        }
+                        soldAmount={product.soldAmount}
+                        quantityInStock={product.quantityInStock}
+                        name={product.name}                      
+                    /> 
+                )
             }
         </Slider>
       </div>

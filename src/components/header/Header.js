@@ -12,7 +12,7 @@ class Header extends Component {
     componentDidMount() {      
 
         mouseOverBtnCart()
-    }
+    }    
     
     render() { 
 

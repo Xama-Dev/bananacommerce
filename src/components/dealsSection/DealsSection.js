@@ -15,10 +15,9 @@ class DealsSection extends Component {
                             <TimerDeals />
                         </div>
                         <a href="/">View All</a>
-                    </div>
-                    
-                        <SlickSliderDeals />
-                    </div>
+                    </div>                    
+                    <SlickSliderDeals />
+                </div>
             </section>
         )
     }

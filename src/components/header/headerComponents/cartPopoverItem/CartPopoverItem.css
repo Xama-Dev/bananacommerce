@@ -1,5 +1,8 @@
 .cart-item {  
     display: flex;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 .cart-item a img{
     width: 50px;
@@ -27,9 +30,10 @@ button .icon-close:hover {
 .product-cart-info {
     padding: 5px;
     margin-left: 15px;
+    padding-right: 20px;
 } 
 .product-cart-name {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: var(--title-products-primary-color);
     transition: all 0.3s;
     font-size: 14px;

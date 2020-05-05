@@ -16,7 +16,8 @@ import
    faStar, 
    faGem, 
    faCreditCard,
-   faComments
+   faComments,
+   faEye
 } from '@fortawesome/free-regular-svg-icons'
 import 
 {
@@ -76,7 +77,8 @@ library.add(
   faCreditCard,
   faComments,
   faGift,
-  faStarRegular
+  faStarRegular,
+  faEye
   )
 
   
